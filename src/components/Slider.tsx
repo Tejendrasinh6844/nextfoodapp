@@ -3,15 +3,15 @@ import Image from 'next/image'
 import React,{useState,useEffect} from 'react'
 const data =[
 {   id:1,
-    title:"always fresh & always crispy & always hot ",
+    title:"always fresh, crispy & hot ",
     image:"/slide1.png"  
   },
 {   id:2,
-    title:"WE serve a hapinnes ",
+    title:"We serve a hapinnes ",
     image:"/slide2.png"  
   },
 {   id:3,
-    title:"the best pizza to share with your family",
+    title:"The best pizza to share with your family",
     image:"/slide3.jpg"  
   }
 
