@@ -20,7 +20,7 @@ const data =[
 
 const Slider = () => {
   useEffect(()=>{
-    const interval = setInterval(()=>setCurrentSlide((prev)=> (prev === data.length -1 ? 0 : prev + 1)),2000)
+    const interval = setInterval(()=>setCurrentSlide((prev)=> (prev === data.length -1 ? 0 : prev + 1)),3000)
     return ()=> clearInterval(interval)
   },[])
   const [currentSlide,setCurrentSlide]= useState(0);
