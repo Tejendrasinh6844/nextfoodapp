@@ -7,10 +7,10 @@ const CategoryPage = () => {
   return (
     <div className='flex flex-wrap text-red-500'>
       {pizzas.map(item=>(
-        <Link href={`/product/${item.id}`} key={item.id} className='w-full md:w-1/2 h-[60vh] border-r-2 border-b-2 border-red-500 '>
+        <Link href={`/product/${item.id}`} key={item.id} className='w-full sm:w-1/2 lg:w-1/3  h-[60vh] border-r-2 border-b-2 border-red-500 '>
 {/* image container */}
 {item.img && 
-<div className=' relative'>
+<div className=' relative h-[80%]'>
   <Image src={item.img} alt='' fill />
   </div>}
 
